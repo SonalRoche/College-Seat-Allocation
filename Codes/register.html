@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> STUDENT REGISTRATION FORM </title>
+<style>
+body{
+    background:url("bck6.jpg");
+    background-repeat:no-repeat;
+    background-size: 1350px 700px;
+    
+}
+#form1{
+    background-color:rgba(0, 0, 0, 0.562);
+    border:2px solid rgb(209, 0, 63) ;
+    width:320px;
+    height:520px;
+    padding:15px;
+    position:absolute;
+    margin-top:10%;
+    margin-left:5%;
+    color:white;
+}
+#form2{
+    background-color:rgba(0, 0, 0, 0.562);
+    border:2px solid rgb(209, 0, 63);
+    width:320px;
+    height:520px;
+    padding:15px;
+    position:absolute;
+    margin-top:10%;
+    margin-left:35%;
+    color:white;
+}
+#form3{
+    background-color:rgba(0, 0, 0, 0.562);
+    border:2px solid rgb(209, 0, 63);
+    width:320px;
+    height:520px;
+    padding:15px;
+    position:absolute;
+    margin-top:10%;
+    margin-left:70%;
+    color:white;
+}
+
+ /* form{
+      /*border:2px solid black;
+       width:500px;
+       height:500px;
+      padding-top:20px;
+        text-align:left;
+		font-size:20px;
+        position:absolute;
+       
+    
+        
+        }*/
+      input{ 
+        width:200px;
+		      height:20px;
+			  font-size:15px;
+              position:absolute;
+              }
+			  
+  .topnav {
+    background-color: #333 ;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top:-1%;
+    position:absolute;
+
+}
+.topnav a {
+    float:left;
+    color: #ffffff;
+    text-align:center; 
+    padding: 12px 60px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: rgb(111, 238, 255);
+    color: black;
+}
+.topnav a.active {
+    background-color: rgb(209, 0, 63);
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<form method="POST" action="connectregister.php" autocomplete="off">
+<div id="form1">
+Sid:<input type="text" name="Sid" ><br><br><br>
+First Name:<input type="text" name="Fname" ><br><br><br>
+Middle Name:<input type="text" name="Mname"><br><br><br>
+Last name:<input type="text" name="Lname"><br><br>
+
+Gender:<br>
+<input type="radio" name="Gender" value="M"> Male<br>
+<input type="radio" name="Gender" value="F"> Female<br><br>
+
+
+
+DOB:<input type="text" name="DOB"><br><br><br>
+Mob No:<input type="tel" name="Mobno"><br><br><br>
+Email:<input type="email" name="Email"><br><br><br>
+Annual Income:<input type="number" name="Annual_Inc"><br><br><br>
+Caste:<input type="text" name="Caste"><br><br><br>
+</div>
+
+<div id="form2">
+10th Percentage:<input type="number" name="Mark_10"><br><br><br>
+12th Percentage:<input type="number" name="Mark_12"><br><br><br>
+Physics:<input type="number" name="Phys"><br><br><br>
+Chemistry:<input type="number" name="Chem"><br><br><br>
+Mathematics:<input type="number" name="Math"><br><br><br>
+Biology:<input type="number" name="Bio"><br><br><br>
+</div>
+<div id="form3">
+House No:<input type="number" name="Houseno"><br><br><br>
+State:<input type="text" name="State"><br><br><br>
+City:<input type="text" name="City"><br><br><br>
+Pin:<input type="number" name="Pin"><br><br><br>
+Degree:<input type="text" name="Degree"><br><br><br>
+Course:<input type="text" name="Course"><br><br><br>
+College Code:<input type="text" name="Chosen_College"><br><br><br>
+Bank:<input type="text" name="Bank_paid"><br><br><br>
+
+<input type="submit" value="SUBMIT">
+</div>
+</form>
+
+
+<div class="topnav">
+    <a  href="AllotmentSite.html">HOME</a>
+    <a class="active" href="register.html">REGISTER</a>
+    <a href="retrievecollege.php">COLLEGES</a>
+    <a href="retrievedegree.php">DEGREES</a>
+    <a href="retrievecourse.php">COURSES</a>
+  </div>
+ 
+
+
+</body>
+			  
+</html>

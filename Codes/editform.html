@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> EDIT </title>
+</head>
+<body>
+<style>
+body{
+	background-color:rgb(200,200,200);
+}
+.topnav {
+    background-color: #333 ;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top:-1%;
+	position:absolute;
+
+}
+.topnav a {
+    float:left;
+    color: #ffffff;
+    text-align:center; 
+    padding: 11px 36px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: rgb(111, 238, 255);
+    color: black;
+}
+.topnav a.active {
+    background-color: rgb(209, 0, 63);
+    color: white;
+}
+form{
+
+width:520px;
+    height:520px;
+    padding:15px;
+    position:absolute;
+    margin-top:10%;
+    margin-left:20%;
+    color:black;
+}
+input#query{ 
+        width:500px;
+		      height:30px;
+			  font-size:15px;
+              position:absolute;
+              }
+input #subbut{
+            width:50px;
+		      height:30px;
+			  font-size:15px;
+              position:absolute;
+			 
+
+	}		  
+	
+	
+			  
+
+</style>
+
+<div class="topnav">
+    <a  href="AllotmentSite.html">HOME</a>
+    <a  href="register.html">REGISTER</a>
+    <a  href="retrievecollege.php">COLLEGES</a>
+    <a  href="retrievedegree.php">DEGREES</a>
+    <a href="retrievecourse.php">COURSES</a>
+    <a href="displayform.html">DISPLAY</a>
+    <a class="active" href="editform.html">EDIT</a>
+  </div>
+
+
+
+<form method="POST" action="connecteditform.php">
+Insert Query for editing:<input id="query" type="text" name="query1"><br><br>
+<input id="subbut" type="submit" value="SUBMIT">
+
+</form>
+</body>
+			  
+</html> 
